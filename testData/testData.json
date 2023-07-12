@@ -1,0 +1,25 @@
+{
+  "baseURL": "https://rahulshettyacademy.com",
+
+  "dashboardCredentials": {
+    "username": "rahulshettyacademy",
+    "password": "learning"
+  },
+
+  "ClientCredentials": {
+    "userEmail": "Rahul@gmail.com",
+    "userPassword": "Meraahul@12"
+  },
+
+  "orders": [
+    {
+      "country": "Cuba",
+      "productOrderedId": "6262e95ae26b7e1a10e89bf0"
+    }
+  ],
+
+  "urls": {
+    "postUrl": "/api/ecom/auth/login",
+    "createOrderUrl": "/api/ecom/order/create-order"
+  }
+}

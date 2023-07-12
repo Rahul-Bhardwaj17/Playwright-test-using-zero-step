@@ -1,0 +1,27 @@
+{
+  "baseURL": "https://reqres.in",
+  "endPointUrls": [
+    {
+      "post": "/api/users",
+      "get": "/api/users?page=2",
+      "put": "/api/users/2",
+      "delete": "/api/users/2"
+    }
+  ],
+  "postPayload": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+  "putPayload": {
+    "name": "morpheus",
+    "job": "zion resident"
+  },
+  "responseCode": [
+    {
+      "postResponseCode": 201,
+      "getResponseCode": 200,
+      "putResponseCode": 200,
+      "deleteResponseCode": 204
+    }
+  ]
+}

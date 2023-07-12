@@ -1,0 +1,38 @@
+{
+  "baseURL": "https://bookcart.azurewebsites.net",
+
+  "apiEndPoint": [
+    {
+      "loginEndPoint": "/api/login",
+      "createOrderEndPoint": "/api/Order/17318"
+    }
+  ],
+
+  "loginPayload": {
+    "username": "johncena24",
+    "password": "John@1234"
+  },
+
+  "createOrderPlayload": {
+    "orderDetails": [
+      {
+        "book": {
+          "bookId": 2,
+          "title": "HP2",
+          "author": "JKR",
+          "category": "Mystery",
+          "price": 235,
+          "coverFileName": "9d8f4978-0ef8-42d0-873a-4eb583439237HP2.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "cartTotal": 235
+  },
+
+  "responseCode": [
+    {
+      "loginResponseCode": 200
+    }
+  ]
+}
