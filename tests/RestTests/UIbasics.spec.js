@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const Data = require("../testData/testData.json");
+const Data = require("../../testData/testData.json");
 const xlsx = require("xlsx");
 const path = require("path");
 

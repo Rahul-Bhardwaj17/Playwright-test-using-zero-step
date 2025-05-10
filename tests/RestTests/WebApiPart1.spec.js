@@ -1,7 +1,7 @@
 const { test, expect, request } = require("@playwright/test");
-const { ApiUtils } = require("../utils/ApiUtils");
-const Data = require("../testData/testData.json");
-const { POManager } = require("../pageObjects/POManager");
+const { ApiUtils } = require("../../utils/ApiUtils");
+const Data = require("../../testData/testData.json");
+const { POManager } = require("../../pageObjects/POManager");
 
 let response, poManager, page;
 

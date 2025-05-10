@@ -1,6 +1,6 @@
 const { test, expect, request } = require("@playwright/test");
-const bookcartJson = require("../testData/bookcartData.json");
-const { ApiPart2Utils } = require("../utils/ApiPart2Utils");
+const bookcartJson = require("../../testData/bookcartData.json");
+const { ApiPart2Utils } = require("../../utils/ApiPart2Utils");
 
 let apiPart2Utils;
 test.beforeEach(async () => {

@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
-const Data = require("../testData/testData.json");
-const { POManager } = require("../pageObjects/POManager");
+const Data = require("../../testData/testData.json");
+const { POManager } = require("../../pageObjects/POManager");
 
 test("UI controls", async ({ page }) => {
   const poManager = new POManager(page);
